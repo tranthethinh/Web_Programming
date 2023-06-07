@@ -1,0 +1,109 @@
+h1 {
+	font-family: Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+}
+h3{
+  color: red;                
+  font-family:  Times;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+}
+.siteMap a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+strong{
+  line-height: 30px;                                
+}
+li{
+  line-height: 15px;
+}
+br {
+  line-height: 15px;
+}
+.t1 {
+  font-family: Times;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.t1 span {
+  display: block;
+}
+
+.t1 span:before {
+  content: attr(data-title);
+  font-style: italic;
+  
+}
+
+.t1 span:after {
+  content: attr(data-value);
+  font-weight: bold;
+}
+
+.t1 #t2 span {
+  margin-bottom: 10px;
+}
+
+
+.three-columns {
+    columns: 3;
+    column-gap: 20px;
+}
+.two-columns {
+    columns: 2;
+    column-gap: 20px;
+}
+.center {
+    text-align: center;
+  }
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image-caption {
+    text-align: center;
+  font-size: 1.2rem;
+  margin-top: 0.5rem
+  }
+  .container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 1px;
+  }
+  
+  
+  
+  .img-wrap {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .button-container {
+    text-align: right;
+  }
+

@@ -1,0 +1,347 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"></html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/style.css" /><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+        <title>Main Page</title>
+        <style>
+            h3{
+                color: red;                
+                font-family:  Times;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 8px;
+            }
+            .siteMap a{
+                text-decoration: none;
+            }
+
+            ul{
+                list-style: none;
+            }
+            strong{
+                line-height: 30px;                                
+            }
+            li{
+                line-height: 15px;
+            }
+            br {
+                line-height: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width:100%;">
+            <tr>
+                <td style="vertical-align: top; margin-top:5px;">
+                    <div style="width:280px; padding-top: 10px;">    
+                        <div style="background-color:#f1efee; vertical-align: middle;">
+                            <h3 style="text-align: center;"> <img src="/a.jpg" style="width:25px;height:25px;border-radius: 50%; align-self:center;"> TRẦN THẾ THỊNH </h3>
+                            <ul>
+                                <li><a href="../Account/NewsFeed.aspx">Thư báo <span style="background-color: red; color: white;">0</span></a></li><hr>
+                                <li><a href="../Account/ChangePassword.aspx">Đổi mật khẩu</a></li><hr>
+                                <li><a href="https://ctt.hust.edu.vn/account/resetpassword">Cấp lại mật khẩu Email trường</a></li><hr>
+                                <li><a href="../Account/Logout.aspx">Thoát đăng nhập</a></li><hr>
+                                <li><a href="../Students/getNewEmailPassword.aspx">Thông tin mật khẩu Email cấp mới</a></li><hr>
+                                <li><a href="../temp/XacNhanToKhaiYTe.aspx">Xác nhận khai báo y tế</a></li><hr><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle; ">
+                        <h3 style="text-align: center;">QUẢN LÝ HỒ SƠ SINH VIÊN</h3>
+                        <ul>
+                            <li><a href="../">Thông tin sinh viên</a></li> <hr>
+                            <li><a href="../Students/updateStudentProfiles.aspx">Cập nhật thông tin cá nhân</a></li><hr>
+                            <li><a href="../Students/StudentGroupInfo.aspx">Thông tin lớp sinh viên</a></li><hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle; ">
+                        <h3 style="text-align: center;">ĐÀO TẠO</h3>
+                        <ul>
+                            <li><a href="../Students/StudentProgram.aspx">Chương trình đào tạo</a> </li><hr>
+                            <li><a href="">Kế hoạch học tập</a></li><hr>
+                            <li><a href="">Kết quả học tập</a> </li><hr>
+                            <li><a href="">Đồ án - Tốt nghiệp</a></li><hr>
+                            <li><a href="../Students/TimetablesTemp.aspx">Thời khóa biểu tạm thời</a></li><hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle;">
+                        <h3 style="text-align: center;">TƯ VẤN TRỰC TUYẾN</h3>
+                        <ul>
+                            <li><a href="../Students/QA.aspx">Hỏi đáp - Tư vấn trực tuyến</a></li><hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle;">
+                        <h3 style="text-align: center;">TÀI CHÍNH HỌC VỤ</h3>
+                        <ul>
+                            <li><a href="../Students/CheckTuition.aspx">Thông tin công nợ học phí</a></li><hr>
+                            <li><a href="../Students/Online_TuitionPay.aspx">Thanh toán học phí trực tuyến</a></li> <hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle;">
+                        <h3 style="text-align: center;">DỊCH VỤ HÀNH CHÍNH</h3>
+                        <ul>
+                            <li><a href="http://ctsv.hust.edu.vn/#/giay-to/xin-cap-giay">ĐK cấp giấy tờ</a></li><hr><br>
+                        </ul>
+                    </div>
+                </td>
+    
+                <td style="width:100%; vertical-align: top; margin:0px;padding:10px;">
+                    <div>
+                        <h3 style="text-align: center;">THÔNG TIN CÁ NHÂN</h3>
+                        <hr style="border-style:ridge;">
+                    </div>                
+                    <div>                
+                        <div>
+                            <h3><span>TH&#212;NG TIN SINH VI&#202;N &nbsp&nbsp<a href="edit.html" target="_blank"><img src="/a.jpg" style="width:25px; height: 25px;" /></a></span></h3>
+                            <hr style="height: 4px; background-color: orange; border: none;"><br/>
+                        </div>
+                        <table>
+                            <div class="three-columns">
+                                <div class="" id="">
+                                
+                                    <div class="image-container">
+                                        <div class="img-wrap">
+                                            <img src="/a.jpg" alt="" style="width:200px;  box-shadow: 5px 5px 5px 5px #cfdeec;" /><br />
+                                        <div class="center">
+                                            <span class="image-caption" id=""><strong>MSSV:</strong>20194853<br><br/></span>
+                                        </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="column">
+                                    <span class="t1" id="t2">
+                                        <span data-title="Họ và tên" data-value=": Trần Thế Thịnh"></span>
+                                        <br/>
+                                        <span data-title="Năm vào trường" data-value=": 2019"></span>
+                                        <br/>
+                                        <span data-title="Bậc đào tạo" data-value=": KSCLC-TN-TT-VN-ICT"></span>
+                                        <br/>
+                                        <span data-title="Chương trình" data-value=": Công nghệ thông tin Global ICT 2019"></span>
+                                        <br/>
+                                        <span data-title="Khoa/Viện quản lý" data-value=": Trường Công nghệ Thông tin và Truyền thông"></span>
+                                        <br/>
+                                        <span data-title="Tình trạng học tập" data-value=": Học"></span>
+                                        <br><br><br/>
+                                      </span>
+                                      
+                                </div>
+                                <div class="column">
+                                    <span class="t1" id="t2">
+                                        <span data-title="Giới tính" data-value=": Nam"></span>
+                                        <br/>
+                                        <span data-title="Lớp" data-value=": ICT 01-k64"></span>
+                                        <br/>
+                                        <span data-title="Khóa học" data-value=":64"></span>
+                                        <br/>
+                                        <span data-title="Email" data-value=": thinh.tt194853@sis.hust.edu.vn"></span>
+                                        <br><br><br><br/>
+                                        
+                                    </span>
+                                </div>
+                    
+                        </div>
+                        </table>                
+                
+                        <div>
+                            <h3> <span >TH&#212;NG TIN HỌC TẬP</span> </h3>
+                            <hr style="height: 4px; background-color: orange; border: none;">
+                        </div>
+                
+                        <table>
+                            <td style="width: 400px;  padding: 0px 0px 0px 20px;">
+        
+                                    <span class="t1" id="t2"><strong>Tổng kết học kỳ&emsp;: </strong>20212<br/><strong>Trung bình tích lũy&emsp;: </strong>2.49<br/><strong>Số TC nợ đăng ký&emsp;: </strong>0<br/></span>
+                    
+                            </td>
+                            <td style="width: 400px; padding: 0px 0px 0px 20px;">
+                                <span class="t1" id="t2"><strong>Số TC tích lũy&emsp;: </strong>83<br/><strong>Trình độ sinh viên&emsp;: </strong>3<br/><strong>Mức cảnh báo&emsp;: </strong>M0<br/></span>
+                            </td>
+                        </table>
+                
+                        <div>
+                            <h3><span >TH&#212;NG TIN C&#193; NH&#194;N</span></h3>
+                            <hr style="height: 4px; background-color: orange; border: none;">
+                        </div>
+                
+                        <table>
+                            <td style="width: 400px; padding: 0px 0px 0px 20px;">
+                                <span class="t1" id="t2"><strong>Dân tộc&emsp;: </strong>KINH<br/><strong>Năm TN cấp 3&emsp;: </strong>0<br/><strong>Địa chỉ&emsp;: </strong> XÃ HIÊN VÂN, HUYỆN TIÊN DU, TỈNH BẮC NINH<br/><strong>Số CMTND&emsp;: </strong>125***82<br/><strong>Nơi cấp&emsp;: </strong>27<br/><strong>Họ tên bố&emsp;: </strong>TRẦN NGỌC PHÚC<br/><strong>Năm sinh&emsp;: </strong>1973<br/><strong>Nghề nghiệp&emsp;: </strong>NÔNG NGHIỆP<br/><strong>Điện thoại&emsp;: </strong>097***55<br/><strong>Email&emsp;: </strong>KHÔNG CÓ<br/></span>
+                            </td>
+                            <td style="width: 400px; padding: 0px 0px 0px 20px;">
+                                <span class="t1" id="t2"><strong>Tôn giáo&emsp;: </strong>KHÔNG<br/><strong>Trường THPT&emsp;: </strong>TRƯỜNG THPT TIÊN DU SỐ 1<br/><strong>Hộ khẩu&emsp;: </strong> XÃ HIÊN VÂN, HUYỆN TIÊN DU, TỈNH BẮC NINH<br/><strong>Số Điện thoại&emsp;: </strong>033***25<br/><strong>Họ tên mẹ&emsp;: </strong>VŨ THỊ DƯ<br/><strong>Năm sinh&emsp;: </strong>1977<br/><strong>Nghề nghiệp&emsp;: </strong>NÔNG NGHIỆP<br/><strong>Điện thoại&emsp;: </strong>039***79<br/><strong>Email&emsp;: </strong>KHÔNG CÓ<br/></span>
+                            </td>
+                        </table>
+                        <br />
+                        <div>
+                            <span>
+                                <strong>Ghi chú: </strong></span><span>Nếu sinh viên thấy thông tin của mình chưa chính xác, xin vui lòng liên hệ phòng Đào tạo để cập nhật lại.
+                            </span>
+                        </div>
+                    </div>
+                </td>    
+            </tr>    
+        </table>    
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/style.css" /><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+<title>
+
+</title>
+
+</head>
+
+</div>
+
+
+
+                <table style="width:100%;">
+
+                <tr>
+
+                <td style="vertical-align: top; margin:0px;">
+                    <div id="" class="">
+			<div id="" class="dxpnl-btn dxpnl-fp">
+				<img id="" class="" src="" alt="" />
+			</div>
+		</div><div class="" id="">
+			<div class="">
+				
+
+                                <div style="width:285px; padding-top: 10px;">
+                                    <div class="t1"><div class="t1"><h3><img src="a.jpg" style="width:30px;height:30px;border-radius: 50%;"> Trần Thế Thịnh</h3><ul class="siteMap"><li><a href="../Account/NewsFeed.aspx">Thư báo <span class="badge" style="background-color:#9C1010;">0</span></a></li><li><a href="../Account/ChangePassword.aspx">Đổi mật khẩu</a></li><li><a href="https://ctt.hust.edu.vn/account/resetpassword">Cấp lại mật khẩu Email trường</a></li><li><a href="../Account/Logout.aspx">Thoát đăng nhập</a></li><li><a href="../Students/getNewEmailPassword.aspx">Thông tin mật khẩu Email cấp mới</a></li><li><a href="../temp/XacNhanToKhaiYTe.aspx">Xác nhận khai báo y tế</a></li></ul></div></div><br><div class="l39contentLeft"><div class="l39LeftMain"><h3>Quản lý hồ sơ sinh viên</h3><ul class="siteMap"><li><a href="../">Thông tin sinh viên</a></li><li><a href="../Students/updateStudentProfiles.aspx">Cập nhật thông tin cá nhân</a></li><li><a href="../Students/StudentGroupInfo.aspx">Thông tin lớp sinh viên</a></li></ul></div></div><br><div class="l39contentLeft"><div class="l39LeftMain"><h3>Đào tạo</h3><ul class="siteMap"><li class="cosub"><a href="javascript:void(0)">Chương trình đào tạo</a><ul class="subSitemap"><li><a href="../Students/StudentProgram.aspx">Chương trình đào tạo sinh viên</a></li><li><a href="../pub/CourseLists.aspx">Danh mục học phần</a></li></ul></li><li class="cosub"><a href="javascript:void(0)">Kế hoạch học tập</a><ul class="subSitemap"><li><a href="../Students/CoursesRegister.aspx">Đăng ký học phần</a></li><li><a href="../Students/Timetables.aspx">Thời khóa biểu</a></li><li><a href="../pub/CheckClassRegister.aspx">Tra cứu đăng ký lớp các kỳ</a></li></ul></li><li class="cosub"><a href="javascript:void(0)">Kết quả học tập</a><ul class="subSitemap"><li><a href="../Students/ToeicMarks.aspx">Kết quả thi TOEIC</a></li><li><a href="../Students/StudentCourseMarks.aspx">Bảng điểm cá nhân</a></li><li><a href="../Students/StudentCourseGrade.aspx">Bảng điểm học phần</a></li><li><a href="../Students/StudentCheckInputGradeTerm.aspx">Kiểm tra nhập điểm kỳ mới nhất</a></li></ul></li><li class="cosub"><a href="javascript:void(0)">Đồ án - Tốt nghiệp</a><ul class="subSitemap"><li><a href="../Students/FinalProjectRegisterResult.aspx">Kết quả xét nhận ĐATN</a></li><li><a href="../Students/GraduateRegister.aspx">Đăng ký xét tốt nghiệp</a></li></ul></li><li><a href="../Students/TimetablesTemp.aspx">Thời khóa biểu tạm thời</a></li></ul></div></div><br><div class="l39contentLeft"><div class="l39LeftMain"><h3>Tư vấn trực tuyến</h3><ul class="siteMap"><li><a href="../Students/QA.aspx">Hỏi đáp - Tư vấn trực tuyến</a></li></ul></div></div><br><div class="l39contentLeft"><div class="l39LeftMain"><h3>Tài chính học vụ</h3><ul class="siteMap"><li><a href="../Students/CheckTuition.aspx">Thông tin công nợ học phí</a></li><li><a href="../Students/Online_TuitionPay.aspx">Thanh toán học phí trực tuyến</a></li></ul></div></div><br><div class="l39contentLeft"><div class="l39LeftMain"><h3>Dịch vụ hành chính</h3><ul class="siteMap"><li><a href="http://ctsv.hust.edu.vn/#/giay-to/xin-cap-giay">ĐK cấp giấy tờ</a></li></ul></div></div><br>
+                                </div>
+                            
+			</div>
+		</div><script id="" type="text/javascript">
+<!--
+
+//-->
+</script>
+                </td>
+
+                <td style="width:100%; vertical-align: top; margin:0px;padding:10px;">
+                    <div class="MainContentTitle">
+                         
+
+    <h1 class="center">THÔNG TIN CÁ NHÂN</h1>
+
+
+                         <hr />
+                    </div>
+                    <div class="MainContent">
+                        
+<div class="row">
+    <h1>THÔNG TIN SINH VIÊN</h1>
+    <hr  />
+</div>
+<div class="row">
+    <div class="three-columns">
+            <div class="" id="">
+			
+                <div class="image-container">
+                    <div class="img-wrap">
+                    <img src="a.jpg" alt=""style="width:200px;" />
+                    <div class="center">
+                        <span class="image-caption" id=""><strong>MSSV:</strong>20194853</span>
+                    </div>
+                    </div>
+                  </div>
+		    </div>
+            <div class="column">
+                <span class="t1" id="t2"><strong>Họ và tên&emsp;: </strong>Trần Thế Thịnh<br><br/><strong>Năm vào trường&emsp;: </strong>2019<br><br/><strong>Bậc đào tạo&emsp;: </strong>KSCLC-TN-TT-VN-ICT<br><br/><strong>Chương trình&emsp;: </strong>Công nghệ thông tin Global ICT 2019<br><br/><strong>Khoa/Viện quản lý&emsp;: </strong>Trường Công nghệ Thông tin và Truyền thông<br><br/><strong>Tình trạng học tập&emsp;: </strong>Học<br><br/></span>
+            </div>
+            <div class="column">
+                <span class="t1" id="t2"><strong>Giới tính&emsp;: </strong>Nam<br><br/><strong>Lớp&emsp;: </strong>ICT 01-K64<br><br/><strong>Khóa học&emsp;: </strong>64<br><br/><strong>Email&emsp;: </strong>thinh.tt194853@sis.hust.edu.vn<br/></span>
+            </div>
+
+    </div>
+    
+</div>
+
+<div class="row">
+    <h1>THÔNG TIN HỌC TẬP</h1>
+    <hr  />
+</div>
+
+<div class="row">
+    <div class="two-columns">
+        <span class="t1" id="t2"><strong>Tổng kết học kỳ&emsp;: </strong>20212<br/><strong>Trung bình tích lũy&emsp;: </strong>2.49<br/><strong>Số TC nợ đăng ký&emsp;: </strong>0<br/></span>
+        <div class="">
+            <span class="t1" id="t2"><strong>Số TC tích lũy&emsp;: </strong>83<br/><strong>Trình độ sinh viên&emsp;: </strong>3<br/><strong>Mức cảnh báo&emsp;: </strong>M0<br/></span>
+        </div>
+    </div>
+    
+</div>
+
+<div class="row">
+    <h1>THÔNG TIN CÁ NHÂN</h1>
+    <hr  />
+</div>
+
+<div class="row">
+    <div class="two-columns">
+        <span class="t1" id="t2"><strong>Dân tộc&emsp;: </strong>KINH<br/><strong>Năm TN cấp 3&emsp;: </strong>0<br/><strong>Địa chỉ&emsp;: </strong> XÃ HIÊN VÂN, HUYỆN TIÊN DU, TỈNH BẮC NINH<br/><strong>Số CMTND&emsp;: </strong>125***82<br/><strong>Nơi cấp&emsp;: </strong>27<br/><strong>Họ tên bố&emsp;: </strong>TRẦN NGỌC PHÚC<br/><strong>Năm sinh&emsp;: </strong>1973<br/><strong>Nghề nghiệp&emsp;: </strong>NÔNG NGHIỆP<br/><strong>Điện thoại&emsp;: </strong>097***55<br/><strong>Email&emsp;: </strong>KHÔNG CÓ<br/></span>
+        <div class="">
+            <span class="t1" id="t2"><strong>Tôn giáo&emsp;: </strong>KHÔNG<br/><strong>Trường THPT&emsp;: </strong>TRƯỜNG THPT TIÊN DU SỐ 1<br/><strong>Hộ khẩu&emsp;: </strong> XÃ HIÊN VÂN, HUYỆN TIÊN DU, TỈNH BẮC NINH<br/><strong>Số Điện thoại&emsp;: </strong>033***25<br/><strong>Họ tên mẹ&emsp;: </strong>VŨ THỊ DƯ<br/><strong>Năm sinh&emsp;: </strong>1977<br/><strong>Nghề nghiệp&emsp;: </strong>NÔNG NGHIỆP<br/><strong>Điện thoại&emsp;: </strong>039***79<br/><strong>Email&emsp;: </strong>KHÔNG CÓ<br/></span>
+        </div>
+    </div>
+    
+</div>
+<br />
+<br />
+<div class="row">
+    <span class="t1" id="t2"><span><strong>Ghi chú:</strong></span><span>Nếu sinh viên thấy thông tin của mình chưa chính xác, xin vui lòng liên hệ phòng Đào tạo để cập nhật lại.</span></span>
+</div>
+
+
+                    </div>
+                </td>
+
+                </tr>
+
+
+
+
+                </table>
+
+
+            </td>
+	</tr>
+</table>
+
+    <footer class="footer">
+        <div class="footerContent">
+            <div class="footerMain">
+                <div class="footerLeft">
+                </div>
+                <div class="footerRight">
+                    <hr>
+                    <b>Trường Đại học Bách Khoa Hà Nội</b>
+                    <br><br>
+                    <p>Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+
+</script>
+</form>
+</body>
+</html>

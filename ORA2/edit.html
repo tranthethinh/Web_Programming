@@ -1,0 +1,218 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"></html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css" /><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+        <title>Edit Page</title>
+        <style>
+            h3{
+                color: red;                
+                font-family:  Times;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 8px;
+            }
+            .siteMap a{
+                text-decoration: none;
+            }
+
+            ul{
+                list-style: none;
+            }
+            strong{
+                line-height: 30px;                                
+            }
+            li{
+                line-height: 15px;
+            }
+            br {
+                line-height: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width:100%;">
+            <tr>
+                <td style="vertical-align: top; margin-top:5px;">
+                    <div style="width:280px; padding-top: 10px;">    
+                        <div style="background-color:#f1efee; vertical-align: middle;">
+                            <h3 style="text-align: center;"> <img src="/a.jpg" style="width:25px;height:25px;border-radius: 50%; align-self:center;"> TRẦN THẾ THỊNH </h3>
+                            <ul>
+                                <li><a href="../Account/NewsFeed.aspx">Thư báo <span style="background-color: red; color: white;">0</span></a></li><hr>
+                                <li><a href="../Account/ChangePassword.aspx">Đổi mật khẩu</a></li><hr>
+                                <li><a href="https://ctt.hust.edu.vn/account/resetpassword">Cấp lại mật khẩu Email trường</a></li><hr>
+                                <li><a href="../Account/Logout.aspx">Thoát đăng nhập</a></li><hr>
+                                <li><a href="../Students/getNewEmailPassword.aspx">Thông tin mật khẩu Email cấp mới</a></li><hr>
+                                <li><a href="../temp/XacNhanToKhaiYTe.aspx">Xác nhận khai báo y tế</a></li><hr><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle; ">
+                        <h3 style="text-align: center;">QUẢN LÝ HỒ SƠ SINH VIÊN</h3>
+                        <ul>
+                            <li><a href="../">Thông tin sinh viên</a></li> <hr>
+                            <li><a href="../Students/updateStudentProfiles.aspx">Cập nhật thông tin cá nhân</a></li><hr>
+                            <li><a href="../Students/StudentGroupInfo.aspx">Thông tin lớp sinh viên</a></li><hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle; ">
+                        <h3 style="text-align: center;">ĐÀO TẠO</h3>
+                        <ul>
+                            <li><a href="../Students/StudentProgram.aspx">Chương trình đào tạo</a> </li><hr>
+                            <li><a href="">Kế hoạch học tập</a></li><hr>
+                            <li><a href="">Kết quả học tập</a> </li><hr>
+                            <li><a href="">Đồ án - Tốt nghiệp</a></li><hr>
+                            <li><a href="../Students/TimetablesTemp.aspx">Thời khóa biểu tạm thời</a></li><hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle;">
+                        <h3 style="text-align: center;">TƯ VẤN TRỰC TUYẾN</h3>
+                        <ul>
+                            <li><a href="../Students/QA.aspx">Hỏi đáp - Tư vấn trực tuyến</a></li><hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle;">
+                        <h3 style="text-align: center;">TÀI CHÍNH HỌC VỤ</h3>
+                        <ul>
+                            <li><a href="../Students/CheckTuition.aspx">Thông tin công nợ học phí</a></li><hr>
+                            <li><a href="../Students/Online_TuitionPay.aspx">Thanh toán học phí trực tuyến</a></li> <hr><br>
+                        </ul>
+                    </div>
+                    <div style="background-color:#f1efee; vertical-align: middle;">
+                        <h3 style="text-align: center;">DỊCH VỤ HÀNH CHÍNH</h3>
+                        <ul>
+                            <li><a href="http://ctsv.hust.edu.vn/#/giay-to/xin-cap-giay">ĐK cấp giấy tờ</a></li><hr><br>
+                        </ul>
+                    </div>
+                </td>
+    
+                <td style="width:100%; vertical-align: top; margin:0px;padding:10px;">
+                    <div>
+                        <h3 style="text-align: center;">THÔNG TIN CÁ NHÂN</h3>
+                        <hr style="border-style:ridge;">
+                    </div>                
+                    <div>  
+                        <form id="user-form">           
+                        <div>
+                            <h3><span>TH&#212;NG TIN SINH VI&#202;N &nbsp&nbsp
+                                <button type="button" id="edit-button">Edit</button>
+                            <div class="button-container">
+                                
+                                <button type="submit" id="submit-button" style="display: none;">OK</button>
+                                <button type="button" id="cancel-button" style="display: none;">Cancel</button>
+                                <button type="button" id="reset-button" style="display: none;">Reset</button>
+                                <p id="status-message"></p>
+                            </div></span></h3>
+                            <hr style="height: 4px; background-color: orange; border: none;"><br/>
+                        </div>
+                        <table>
+                            <div class="three-columns">
+                                <div class="" id="">
+                                
+                                    <div class="image-container">
+                                        <div class="img-wrap">
+                                            <img id="myImage" src="./a.jpg" alt="" style="width:200px;  box-shadow: 5px 5px 5px 5px #cfdeec;" /><br />
+                                        <div class="center">
+                                            <input type="file" id="myFile" name="myFile" style="display: none;">
+                                            <span class="image-caption" id=""><strong>MSSV:</strong>20194853<br><br/></span>
+                                        </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="column">
+                                    
+                                        <span class="t1" id="">
+                                            <label for="name">Họ và Tên:</label>
+                                            <input type="text" id="name" name="name" value=""><br>
+                                            <br/>
+                                            <label for="year">Năm vào trường:</label>
+                                            <input type="number" id="year" name="year" value=""style="width: 60px;" ><br>
+                                            <br/>
+                                            <label for="bdt">Bậc đào tạo:</label>
+                                            <select id="bdt" name="bdt">
+                                                <option value="KSCLC-TN-TT-VN-ICT">KSCLC-TN-TT-VN-ICT</option>
+                                                <option value="Đại trà">Đại trà</option>
+                                            </select><br>
+                                            <br/>
+                                            <label for="ct">Chương Trình:</label>
+                                            <input type="text" id="ct" name="ct" placeholder="Chương trình"value="Công nghệ thông tin Global ICT 2019"style="width: 160px;"><br>
+                                            <label for="kv">Khoa/Viện quản lý:</label>
+                                            <select id="kv" name="kv">
+                                                <option value="Trường Công nghệ Thông tin và Truyền thông">Trường Công nghệ Thông tin và Truyền thông</option>
+                                                <option value="Trường cơ khí">Trường cơ khí</option>
+                                                <option value="Trường điện- điện tử">Trường điện- điện tử</option>
+                                                <option value="Viện ngoại ngữ">Viện ngoại ngữ</option>
+                                                <option value="Viện Toán ứng dụng & Tin học">Viện Toán ứng dụng & Tin học</option>
+                                            </select><br>
+                                            <br/>
+                                            <label for="ttht">Tình trạng học tập:</label>
+                                            <select id="ttht" name="ttht">
+                                                <option value="Học">Học</option>
+                                                <option value="Không">Không</option>
+                                            </select><br>
+                                            <br><br/>
+                                            <label for="gender">Giới tính:</label>
+                                            <select id="gender" name="gender">
+                                                <option value="Nam">Nam</option>
+                                                <option value="Nữ">Nữ</option>
+                                            </select><br>
+                                            <br/>
+                                                <label for="class">Lớp:</label>
+                                                <input type="text" id="class" name="class" placeholder="Class"value="" style="width: 150px;"><br>
+                                            <br/>
+                                                <label for="khoa">Khóa học:</label>
+                                                <input type="number" id="khoa" name="khoa" placeholder="Number" value=""style="width: 40px;"><br>
+                                            <br/>
+                                                <label for="email">Email:</label>
+                                                <input type="text" id="email" name="email" placeholder="Email" value="" style="width: 250px;"><br>
+                                            <br><br><br><br/>
+                                        </span>
+                                    </form><script src="script.js"></script>
+                                </div>
+                        </div>
+                        </table>                
+                
+                        <div>
+                            <h3> <span >TH&#212;NG TIN HỌC TẬP</span> </h3>
+                            <hr style="height: 4px; background-color: orange; border: none;">
+                        </div>
+                
+                        <table>
+                            <td style="width: 400px;  padding: 0px 0px 0px 20px;">
+        
+                                    <span class="t1" id="t2"><strong>Tổng kết học kỳ&emsp;: </strong>20212<br/><strong>Trung bình tích lũy&emsp;: </strong>4.0<br/><strong>Số TC nợ đăng ký&emsp;: </strong>0<br/></span>
+                    
+                            </td>
+                            <td style="width: 400px; padding: 0px 0px 0px 20px;">
+                                <span class="t1" id="t2"><strong>Số TC tích lũy&emsp;: </strong>83<br/><strong>Trình độ sinh viên&emsp;: </strong>3<br/><strong>Mức cảnh báo&emsp;: </strong>M0<br/></span>
+                            </td>
+                        </table>
+                
+                        <div>
+                            <h3><span >TH&#212;NG TIN C&#193; NH&#194;N</span></h3>
+                            <hr style="height: 4px; background-color: orange; border: none;">
+                        </div>
+                
+                        <table>
+                            <td style="width: 400px; padding: 0px 0px 0px 20px;">
+                                <span class="t1" id="t2"><strong>Dân tộc&emsp;: </strong>KINH<br/><strong>Năm TN cấp 3&emsp;: </strong>0<br/><strong>Địa chỉ&emsp;: </strong> XÃ HIÊN VÂN, HUYỆN TIÊN DU, TỈNH BẮC NINH<br/><strong>Số CMTND&emsp;: </strong>1*****2<br/><strong>Nơi cấp&emsp;: </strong>27<br/><strong>Họ tên bố&emsp;: </strong>TRẦN NGỌC PHÚC<br/><strong>Năm sinh&emsp;: </strong>1973<br/><strong>Nghề nghiệp&emsp;: </strong>NÔNG NGHIỆP<br/><strong>Điện thoại&emsp;: </strong>097***55<br/><strong>Email&emsp;: </strong>KHÔNG CÓ<br/></span>
+                            </td>
+                            <td style="width: 400px; padding: 0px 0px 0px 20px;">
+                                <span class="t1" id="t2"><strong>Tôn giáo&emsp;: </strong>KHÔNG<br/><strong>Trường THPT&emsp;: </strong>TRƯỜNG THPT TIÊN DU SỐ 1<br/><strong>Hộ khẩu&emsp;: </strong> XÃ HIÊN VÂN, HUYỆN TIÊN DU, TỈNH BẮC NINH<br/><strong>Số Điện thoại&emsp;: </strong>033***25<br/><strong>Họ tên mẹ&emsp;: </strong>VŨ THỊ DƯ<br/><strong>Năm sinh&emsp;: </strong>1977<br/><strong>Nghề nghiệp&emsp;: </strong>NÔNG NGHIỆP<br/><strong>Điện thoại&emsp;: </strong>039***79<br/><strong>Email&emsp;: </strong>KHÔNG CÓ<br/></span>
+                            </td>
+                        </table>
+                        <br />
+                        <div>
+                            <span>
+                                <strong>Ghi chú: </strong></span><span>Nếu sinh viên thấy thông tin của mình chưa chính xác, xin vui lòng liên hệ phòng Đào tạo để cập nhật lại.
+                            </span>
+                        </div>
+                    </div>
+                </td>    
+            </tr>    
+        </table>    
+    </body>
+</html>
